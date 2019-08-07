@@ -1,0 +1,2 @@
+Prefix plugins/Threshold/example/
+Plugin Threshold inputfile parameters.txt outputfile abund.thresholded.csv
