@@ -2,7 +2,7 @@
 # Language: R
 # Input: TXT (key, value pairs)
 # Output: CSV (thresholded abundance data)
-# Tested with: PluMA 1.0, R 3.2.5
+# Tested with: PluMA 1.1, R 4.0.0
 
 PluMA plugin designed to take raw abundance data and threshold it, based on the number
 of recorded observations across a set of samples.  All observables that do not meet a user-specified
