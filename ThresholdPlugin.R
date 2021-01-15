@@ -24,7 +24,7 @@ input <- function(inputfile) {
 run <- function() {
    keep.cols <- retval[,which(colSums(abund_raw)>minreads)];
    colnames(keep.cols) <- cn[which(colSums(abund_raw)>minreads)];
-   retval <<- keep.cols[,sort(colnames(keep.cols))];
+   #retval <<- keep.cols[,sort(colnames(keep.cols))];
    retval <<- cbind(leadingcolumns, retval);
 }
 
